@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>交流掲示板</title>
+    <link rel="stylesheet" href="interact.css" type="text/css" />
+    <link rel="stylesheet" href="hover.css" type="text/css" />
+</head>
+<body>
+  <header>
+    <div id="header1">
+      ようこそ<font id="userName">高橋純一</font>さん
+      <a href="mainPage.html" class="hvr-bob"><img src="images/homeButton.png" alt="" id="homeButton"/></a>
+      <a href="#" class="hvr-bob"><img src="images/dmButton.png" alt="" id="dmButton"/></a>
+      <img src="images/searchBox.png" alt="" id="serchBox"/>
+    </div>
+    <div id="header2">
+          <img src="images/grassDecoration_left.png" alt="" id="headerLeftImg"/>
+          シングルファザーdays
+          <img src="images/grassDecoration_right.png" alt="" id="headerRightImg"/>
+    </div>
+    <div id="navigationBar">
+      <img src="images/orangeLine_vertical.png" alt="" class="partition"/>
+      <img src="images/icon_Interact.png" alt=""  class="menuIcon"/>
+      <a href="interact.html" style="text-decoration:none" class="navigationText hvr-pulse-shrink">交流する　　</a>
+      <img src="images/orangeLine_vertical.png" alt="" class="partition"/>
+      <img src="images/icon_News.png" alt=""  class="menuIcon"/>
+      <a href="" style="text-decoration:none" class="navigationText hvr-pulse-shrink">NEWS　　</a>
+      <img src="images/orangeLine_vertical.png" alt="" class="partition"/>
+      <img src="images/icon_Box.png" alt=""  class="menuIcon"/>
+      <a href="" style="text-decoration:none" class="navigationText hvr-pulse-shrink">要望ボックス　　</a>
+      <img src="images/orangeLine_vertical.png" alt="" class="partition"/>
+      <img src="images/icon_Introduction.png" alt=""  class="menuIcon"/>
+      <a href="" style="text-decoration:none" class="navigationText hvr-pulse-shrink">当サイトについて　　</a>
+      <img src="images/orangeLine_vertical.png" alt="" class="partition"/>
+    </div>
+  </header>
+
+  <div id="contents">
+    <div class="archive">
+      <table border="3" width="250" cellspacing="0" bordercolor="#b3afaf">
+        <tr>
+          <th>　カテゴリ別アーカイブ</th>
+        </tr>
+        <tr>
+          <td><a href="#" style="text-decoration:none" class="archiveContents hvr-underline-from-left" />　幼稚園　(52)</td>
+        </tr>
+        <tr>
+          <td><a href="#" style="text-decoration:none" class="archiveContents hvr-underline-from-left" />　小学校　(20)</td>
+        </tr>
+        <tr>
+          <td><a href="#" style="text-decoration:none" class="archiveContents hvr-underline-from-left" />　中学校　(13)</td>
+        </tr>
+        <tr>
+          <td><a href="#" style="text-decoration:none" class="archiveContents hvr-underline-from-left" />　高校　(32)</td>
+        </tr>
+        <tr>
+          <td><a href="#" style="text-decoration:none" class="archiveContents hvr-underline-from-left" />　進路　(62)</td>
+        </tr>
+        <tr>
+          <td><a href="#" style="text-decoration:none" class="archiveContents hvr-underline-from-left" />　生活　(40)</td>
+        </tr>
+        <tr>
+          <td><a href="#" style="text-decoration:none" class="archiveContents hvr-underline-from-left" />　料理　(78)</td>
+        </tr>
+        <tr>
+          <td><a href="#" style="text-decoration:none" class="archiveContents hvr-underline-from-left" />　娘　(120)</td>
+        </tr>
+        <tr>
+          <td><a href="#" style="text-decoration:none" class="archiveContents hvr-underline-from-left" />　息子　(78)</td>
+        </tr>
+        <tr>
+          <td><a href="#" style="text-decoration:none" class="archiveContents hvr-underline-from-left" />　ご近所づきあい　(28)</td>
+        </tr>
+        <tr>
+          <td><a href="#" style="text-decoration:none" class="archiveContents hvr-underline-from-left" />　公的支援　(67)</td>
+        </tr>
+        <tr>
+          <td><a href="#" style="text-decoration:none" class="archiveContents hvr-underline-from-left" />　会社　(48)</td>
+        </tr>
+      </table>
+    </div>
+
+
+    <!-- ここから掲示板関係　-->
+    <div class="threadDiv" border="3" width="600" cellspacing="0" bordercolor="#333333">
+
+      <div id="thread1" class="thread">
+          <!-- タイトルとスレッド主の書き込み　-->
+          <div class="threadTitle">
+            娘が思春期なんだが助けてくれ
+          </div>
+          <div class="owener">
+            <div class="threadUser">
+              <img src="images/icon_Ika.png" alt="" class="icon"/>
+              <font class="threadUserName">イカさん</font>
+            </div>
+            <div class="threadText">
+              最近娘が思春期で言うことを聞いてくれません。
+              どうしたらいいでしょうか?
+            </div>
+            <div class="threadDate">
+              2016/10/09/17:55:32
+            </div>
+          </div>
+
+
+        <!-- 以下、他ユーザーからのレス-->
+        <div class="anotherUser">
+          <div class="threadBorder"></div>
+          <div class="threadTitle">
+            Re:娘が思春期なんだが助けてくれ
+          </div>
+          <div class="threadUser">
+            <img src="images/icon_Hitode.png" alt="" class="icon"/>
+            <font class="threadUserName">ヒトデさん</font>
+          </div>
+          <div class="threadText">
+            あー、分かります。嫌われるのつらいですよね・・・
+            <br>
+            そっと見守ってあげるしかないんじゃないでしょうか？
+          </div>
+          <div class="threadDate">
+            2016/10/09/18:10:42
+          </div>
+        </div>
+        <div class="threadBorder"></div>
+        <a href="thread1.html" class="threadButton hvr-back-pulse">このスレッドを読む</a>
+      </div>
+
+      <br><br>
+
+      <div id="thread2" class="thread">
+          <!-- タイトルとスレッド主の書き込み　-->
+          <div class="threadTitle">
+            年末ってどうやって過ごしてる？
+          </div>
+          <div class="owener">
+            <div class="threadUser">
+              <img src="images/icon_Risu.png" alt="" class="icon"/>
+              <font class="threadUserName">リスみたいなパパ</font>
+            </div>
+            <div class="threadText">
+              年末になるとやはり独り身が寂しくなりますね。
+              <br>
+              皆さんはどのように過ごしていますか？
+            </div>
+            <div class="threadDate">
+              2016/10/08/12:34:27
+            </div>
+          </div>
+
+        <!-- 以下、他ユーザーからのレス-->
+        <div class="anotherUser">
+          <div class="threadBorder"></div>
+          <div class="threadTitle">
+            Re:年末ってどうやって過ごしてる？
+          </div>
+          <div class="threadUser">
+            <img src="images/icon_Hitode.png" alt="" class="icon"/>
+            <font class="threadUserName">ヒトデさん</font>
+          </div>
+          <div class="threadText">
+            あー、分かります。独り身ってつらいですよね・・・
+            <br>
+            今度シングルマザーが集まる合コンがあるとかないとか！？
+            <br>
+            そういうイベントに参加したりするといいかもしれませんね！
+          </div>
+          <div class="threadDate">
+            2016/10/08/13:00:10
+          </div>
+        </div>
+        <div class="threadBorder"></div>
+        <a href="#" class="threadButton hvr-back-pulse">このスレッドを読む</a>
+      </div>
+      </div>
+
+  </div>
+
+  <!--広告関係-->
+  <div class="advertisement">
+    ＜広告＞
+  </div>
+
+  <footer>
+    <div></div>
+  </footer>
+</body>
+</html>

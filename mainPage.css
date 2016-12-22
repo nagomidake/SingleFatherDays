@@ -1,0 +1,156 @@
+#header1 {
+	height: 40px;
+  line-height: 40px;
+  position: relative;
+  left: 5%;
+  font-weight: bold;
+}
+
+#userName{
+  background-color: #55bdff;
+}
+
+#dmButton{
+  position: relative;
+  left:30px;
+}
+#homeButton{
+  position: relative;
+  left:30px;
+}
+
+#serchBox{
+  position: relative;
+  left: 50%;
+  width:200px;
+  height: 30px;
+}
+
+#header2 {
+  background-color: #c1f7e8;
+	height: 160px;
+  margin: 0px -20px 0px -20px;
+	border-bottom: 5px solid #fbb03b;
+  font-size: 80px;
+  font-weight: bold;
+  color:#42210b;
+  text-align: center;
+  line-height: 160px;
+}
+
+#headerLeftImg{
+  float: left;
+  width:13%;
+  height:140px;
+}
+#headerRightImg{
+  float:right;
+  width:13%;
+  height:140px;
+}
+
+
+#navigationBar{
+  position: relative;
+  top:10px;
+  text-align: center;
+}
+
+.partition{
+  width:6px;
+  height:60px;
+}
+
+.menuIcon{
+  width: 50px;
+  height: 60px;
+}
+
+.navigationText{
+  color:#42210b;
+  font-size: 30px;
+  position: relative;
+  top: -20px;
+}
+
+
+body {
+  background-color: #f3fffe;
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+
+#contents{
+  width:100%;
+  position: relative;
+  top:50px;
+  margin-right: auto;
+  margin-left : auto;
+}
+
+.mainImageArea{
+  width:100%;
+  height: 500px;
+}
+.mainImage{
+  width:100%;
+  height:500px;
+}
+
+.headWord{
+  font-size: 30px;
+  color: #42210b;
+  font-weight: bold;
+}
+
+.itemListArea{
+  width: 84%;
+  position: relative;
+  top:50px;
+  margin-right: auto;
+  margin-left : auto;
+	text-align: center;
+}
+
+.itemList{
+  width:84%;
+  height: 400px;
+}
+
+.itemImage{
+	width: 200px;
+	height: 200px;
+}
+
+.itemContents{
+  font-size: 50px;
+  position: relative;
+  left: 300px;
+  top:200px;
+}
+
+.serviceListArea{
+  width: 84%;
+  position: relative;
+  top:150px;
+  margin-right: auto;
+  margin-left : auto;
+  text-align: center;
+}
+
+
+
+.advertisement{
+  width:16%;
+  height:800px;
+  float: right;
+  position: relative;
+  top:50px;
+  right:0px;
+  background-color: white;
+  border-left: 5px solid #fbb03b;
+  line-height: 800px;
+  font-size: 50px;
+}

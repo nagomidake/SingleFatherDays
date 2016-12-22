@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>メインページ</title>
+  <link rel="stylesheet" href="mainPage.css"/>
+  <link rel="stylesheet" href="hover.css"/>
+  <link rel="stylesheet" href="slick-1.6.0/slick/slick.css"/>
+  <link rel="stylesheet" href="slick-1.6.0/slick/slick-theme.css"/>
+  <script src="js/jquery-1.7.2.min.js"></script>
+  <script src="js/slick.min.js"></script>
+
+  <script>
+      $(function(){
+        $('.mainImageArea').slick({
+          infinite: true,
+      		dots:true,
+      		slidesToShow: 1,
+      		centerMode: true, //要素を中央寄せ
+      		centerPadding:'16%', //両サイドの見えている部分のサイズ
+      		autoplay:true, //自動再生
+      		responsive: [{
+      			breakpoint: 480,
+      				settings: {
+      					centerMode: false,
+      			}
+      		}]
+        });
+      });
+  </script>
+
+</head>
+<body>
+  <header>
+    <div id="header1">
+      ようこそ<font id="userName">高橋純一</font>さん
+      <a href="#" class="hvr-bob"><img src="images/homeButton.png" alt="" id="homeButton"/></a>
+      <a href="#" class="hvr-bob"><img src="images/dmButton.png" alt="" id="dmButton"/></a>
+      <img src="images/searchBox.png" alt="" id="serchBox"/>
+    </div>
+    <div id="header2">
+          <img src="images/grassDecoration_left.png" alt="" id="headerLeftImg"/>
+          シングルファザーdays
+          <img src="images/grassDecoration_right.png" alt="" id="headerRightImg"/>
+    </div>
+    <div id="navigationBar">
+      <img src="images/orangeLine_vertical.png" alt="" class="partition"/>
+      <img src="images/icon_Interact.png" alt=""  class="menuIcon"/>
+      <a href="interact.html" style="text-decoration:none" class="navigationText hvr-pulse-shrink">交流する　　</a>
+      <img src="images/orangeLine_vertical.png" alt="" class="partition"/>
+      <img src="images/icon_News.png" alt=""  class="menuIcon"/>
+      <a href="" style="text-decoration:none" class="navigationText hvr-pulse-shrink">NEWS　　</a>
+      <img src="images/orangeLine_vertical.png" alt="" class="partition"/>
+      <img src="images/icon_Box.png" alt=""  class="menuIcon"/>
+      <a href="" style="text-decoration:none" class="navigationText hvr-pulse-shrink">要望ボックス　　</a>
+      <img src="images/orangeLine_vertical.png" alt="" class="partition"/>
+      <img src="images/icon_Introduction.png" alt=""  class="menuIcon"/>
+      <a href="" style="text-decoration:none" class="navigationText hvr-pulse-shrink">当サイトについて　　</a>
+      <img src="images/orangeLine_vertical.png" alt="" class="partition"/>
+    </div>
+  </header>
+
+  <div id="contents">
+    <!--　メイン広告掲示領域　-->
+      <ul class="mainImageArea">
+        <li><img src="images/mainImage1.png" alt="" class="mainImage"/></li>
+        <li><img src="images/mainImage2.png" alt="" class="mainImage"/></li>
+        <li><img src="images/mainImage3.png" alt="" class="mainImage"/></li>
+      </ul>
+
+      <!--広告関係-->
+    <div class="advertisement">
+      ＜広告＞
+    </div>
+
+    <!--いるものリスト表示領域-->
+    <div class="itemListArea">
+      <font class="headWord">今月のいるものリスト</font>
+      <div class="itemList">
+        <img src="images/1.jpg" alt="" class="itemImage" />
+        <img src="images/2.jpg" alt="" class="itemImage" />
+        <img src="images/3.jpg" alt=""  class="itemImage"/>
+        <br>
+        <img src="images/4.jpg" alt=""  class="itemImage"/>
+        <img src="images/5.jpg" alt=""  class="itemImage"/>
+        <img src="images/seiriyouhin.jpg" alt=""  class="itemImage"/>
+      </div>
+    </div>
+
+    <!-- 行政サービスの情報表示領域　-->
+    <div class="serviceListArea">
+      <font class="headWord">東京都八王子市在住の方が受けられる行政サービス</font>
+      <h3>八王子市ホームページ</h3>
+      <a href="http://www.city.hachioji.tokyo.jp/fukushi/">http://www.city.hachioji.tokyo.jp/fukushi/</a>
+      <h3>東京都福祉保険局</h3>
+      <a href="http://www.fukushihoken.metro.tokyo.jp/kodomo/kosodate/">http://www.fukushihoken.metro.tokyo.jp/kodomo/kosodate/</a>
+    </div>
+
+  </div>
+</body>
+</html>

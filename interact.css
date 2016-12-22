@@ -1,0 +1,191 @@
+#header1 {
+	height: 40px;
+  line-height: 40px;
+  position: relative;
+  left: 5%;
+  font-weight: bold;
+}
+
+#userName{
+  background-color: #55bdff;
+}
+
+#dmButton{
+  position: relative;
+  left:30px;
+}
+#homeButton{
+  position: relative;
+  left:30px;
+}
+
+#serchBox{
+  position: relative;
+  left: 50%;
+  width:200px;
+  height: 30px;
+}
+
+#header2 {
+  background-color: #c1f7e8;
+	height: 160px;
+  margin: 0px -20px 0px -20px;
+	border-bottom: 5px solid #fbb03b;
+  font-size: 80px;
+  font-weight: bold;
+  color:#42210b;
+  text-align: center;
+  line-height: 160px;
+}
+
+#headerLeftImg{
+  float: left;
+  width:13%;
+  height:140px;
+}
+#headerRightImg{
+  float: right;
+  width:13%;
+  height:140px;
+}
+
+
+#navigationBar{
+  position: relative;
+  top:10px;
+  text-align: center;
+}
+
+.partition{
+  width:6px;
+  height:60px;
+}
+
+.menuIcon{
+  width: 50px;
+  height: 60px;
+}
+
+.navigationText{
+  color:#42210b;
+  font-size: 30px;
+  position: relative;
+  top: -20px;
+}
+
+body {
+  background-color: #f3fffe;
+}
+
+#contents{
+  width:84%;
+  position: relative;
+  top:50px;
+  left:-5%;
+  margin-right: auto;
+  margin-left : auto;
+}
+
+.archive{
+  width:28%;
+  float:left;
+}
+
+.archive th{
+  background-color:#42210b;
+  height: 50px;
+  color:white;
+  font-weight: bold;
+}
+.archive td{
+  height:30px;
+  border:none;
+  background-color: white;
+  text-align: left;
+  color:#42210b;
+  font-weight: bold;
+}
+
+.archiveContents{
+  color:#42210b;
+}
+
+.threadDiv{
+  width:57%;
+  float:left;
+  text-align: left;
+}
+
+.caution{
+	width:56%;
+	float: left;
+	text-align: center;
+}
+.thread{
+  background-color: white;
+  box-shadow:0px 0px 5px;
+  border:0px solid rgb(186, 186, 186);
+}
+.anotherUser{
+  position: relative;
+  left:100px;
+  width:500px;
+}
+.threadTitle{
+  font-size: 20px;
+  font-weight: bold;
+  color:#00cd40;
+  height:50px;
+  position: relative;
+  top:10px;
+}
+.icon{
+  width:40px;
+  height:40px;
+}
+.threadUserName{
+  position: relative;
+  top:-20px;
+  color: rgb(112, 187, 249);
+  font-weight: bold;
+}
+.threadText{
+  position: relative;
+  left: 40px;
+  height:60px;
+}
+.threadDate{
+  text-align: right;
+  height:20px;
+}
+.threadBorder{
+  border-bottom: 3px solid #fbb03b;
+  border-bottom-style: dotted;
+}
+.threadButton{
+  width:250px;
+  font-size:24px;
+  font-weight:bold;
+  text-decoration:none;
+  display:block;
+  text-align:center;
+  padding:8px 0 10px;
+  color:#fff;
+  background-color:rgb(143, 143, 143);
+  border-radius:5px;
+  position: relative;
+  left:200px;
+}
+
+.advertisement{
+  width:16%;
+  height:800px;
+  float: right;
+  position: relative;
+  top:50px;
+  right:5%;
+  background-color: white;
+  border-left: 5px solid #fbb03b;
+  line-height: 800px;
+  font-size: 50px;
+}

@@ -1,0 +1,162 @@
+#header1 {
+	height: 40px;
+  line-height: 40px;
+  position: relative;
+  left: 5%;
+  font-weight: bold;
+}
+
+#userName{
+  background-color: #55bdff;
+}
+
+#dmButton{
+  position: relative;
+  left:30px;
+}
+#homeButton{
+  position: relative;
+  left:30px;
+}
+
+#serchBox{
+  position: relative;
+  left: 50%;
+  width:200px;
+  height: 30px;
+}
+
+#header2 {
+  background-color: #c1f7e8;
+	height: 160px;
+  margin: 0px -20px 0px -20px;
+	border-bottom: 5px solid #fbb03b;
+  font-size: 80px;
+  font-weight: bold;
+  color:#42210b;
+  text-align: center;
+  line-height: 160px;
+}
+
+#headerLeftImg{
+  float: left;
+  width:13%;
+  height:140px;
+}
+#headerRightImg{
+  float: right;
+  width:13%;
+  height:140px;
+}
+
+
+#navigationBar{
+  position: relative;
+  top:10px;
+  text-align: center;
+}
+
+.partition{
+  width:6px;
+  height:60px;
+}
+
+.menuIcon{
+  width: 50px;
+  height: 60px;
+}
+
+.navigationText{
+  color:#42210b;
+  font-size: 30px;
+  position: relative;
+  top: -20px;
+}
+
+body {
+  background-color: #f3fffe;
+}
+
+#contents{
+  width:84%;
+  position: relative;
+  top:50px;
+  margin-right: auto;
+  margin-left : auto;
+}
+
+.thread{
+  background-color: white;
+  box-shadow:0px 0px 5px;
+  border:0px solid rgb(186, 186, 186);
+	height: 800px;
+}
+.anotherUser{
+  position: relative;
+  left:100px;
+	top: 30px;
+  width:90%;
+}
+.threadTitle{
+  font-size: 20px;
+  font-weight: bold;
+  color:#00cd40;
+  height:50px;
+  position: relative;
+  top:10px;
+  left: 10px;
+}
+.icon{
+  width:40px;
+  height:40px;
+}
+.threadUserName{
+  position: relative;
+  top:-20px;
+  color: rgb(112, 187, 249);
+  font-weight: bold;
+}
+.threadText{
+  position: relative;
+  left: 40px;
+  height:60px;
+}
+.threadDate{
+  text-align: right;
+  height:20px;
+}
+.threadBorder{
+  border-bottom: 3px solid #fbb03b;
+  border-bottom-style: dotted;
+	clear: both;
+}
+
+.answererIcon{
+  width:40px;
+  height:40px;
+	float: left;
+  position: relative;
+  left: 10%;
+}
+
+.answerForm{
+  position:relative;
+	top:10px;
+  left: 12%;
+}
+
+textarea {
+	line-height: 1.5em;
+	resize: none;
+	-webkit-box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+	-moz-box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+	box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	font-size: 15px;
+}
+
+textarea:focus {
+  outline: solid 3px #EEA34A;
+}
